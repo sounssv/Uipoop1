@@ -386,7 +386,7 @@ function a:Window(w)
         local aa = Instance.new("TextLabel")
         a4.Name = "SliderObj"
         a4.Parent = E
-        a4.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
+        a4.BackgroundColor3 = Color3.fromRGB(38, 38, 38) 
         a4.BorderSizePixel = 0
         a4.Position = UDim2.new(0, 0, 0.0172413792, 0)
         a4.Size = UDim2.new(0, 203, 0, 36)
@@ -412,7 +412,7 @@ function a:Window(w)
         a7.Parent = a6
         a8.Name = "SliderPart"
         a8.Parent = a6
-        a8.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+        a8.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
         a8.BorderSizePixel = 0
         a8.Size = UDim2.new((S or 0) / a2, 0, 1, 0)
         a9.CornerRadius = UDim.new(0, 4)
